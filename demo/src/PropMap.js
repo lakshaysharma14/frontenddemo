@@ -10,7 +10,7 @@ class PropMap extends React.Component
 		const nglist=ng.map(chaani=>{ 
 //chaani is random variable for accesing each entry in the array		  
 		return(	
-				<div key={chaani.id}> 
+				<div key={chaani.id}>    
 
 {/*Here we have return an template of Jsx for each Channi that we have to display */}
 {/*here it is neccesary for us to provide unique id so that react can differentiate between each obj	*/}			
@@ -33,4 +33,4 @@ class PropMap extends React.Component
 	}
 }
 
-export default PropMap;
+export default PropMap;                                                                   
